@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nutmautim{
+    background: plum;
+    border-radius: 6px;
+    color: rgb(245, 12, 109);
+    padding: 9px 18px;
+}
+#header{
+    display: flex;
+    padding: 0 135px;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#header ul{
+    list-style-type: none;
+    
+}
+#header ul li{
+    display: inline;
+    padding: 0 10px;
+}
+#header ul li a {
+    text-decoration: none;
+    color: black;
+}
+#jin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+    height: 400px;
+}
+#jin .chubenphai{
+    width: 40%;
+}
+#jin .chubenphai h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+#jin .chubenphai p{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(36, 35, 35);
+    margin: 22px 0 38px 0;
+    
+}
+#v{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+    height: 400px;
+    background-color: rgba(255, 180, 255, 0.676);
+    
+}
+#v .chubentrai{
+    width: 40%;
+}
+#v.chubentrai h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+#v .chubentrai p{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(36, 35, 35);
+    margin: 22px 0 38px 0;
+}
+#kook{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+    height: 400px;
+}
+#kook .chubenphai{
+    width: 40%;
+}
+#kook .chubenphai h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+#kook .chubenphai p{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(36, 35, 35);
+    margin: 22px 0 38px 0;
+}
+#rm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+    height: 400px;
+    background-color: rgba(255, 180, 255, 0.676);
+}
+#rm .chubentrai{
+    width: 40%;
+}
+#rm .chubentrai h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+#rm .chubentrai p{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(36, 35, 35);
+    margin: 22px 0 38px 0;
+}
+#suga{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+    height: 400px;
+}
+#suga .chubenphai{
+    width: 40%;
+}
+#suga .chubenphai h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+#suga .chubenphai p{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(36, 35, 35);
+    margin: 22px 0 38px 0;
+}
+#jimin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+    height: 400px;
+    background-color: rgba(255, 180, 255, 0.676);
+}
+#jimin .chubentrai{
+    width: 40%;
+}
+#jimin .chubentrai h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+#jimin .chubentrai p{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(36, 35, 35);
+    margin: 22px 0 38px 0;
+}
+#jh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+    height: 400px;
+}
+#jh .chubenphai{
+    width: 40%;
+}
+#jh .chubenphai h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+#jh .chubenphai p{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(36, 35, 35);
+    margin: 22px 0 38px 0;
+}
+#banner{
+    background-image: url(img/7947a57a95e14a2f741547e89ab9264f.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 135px;
+    /* filter: brightness(90%); */
+}
+#banner h1{
+    color: aliceblue;
+    padding: 20px 0;
+}
+#banner i {
+    color: white;
+    padding: 0 10px;
+}
+@keyframes chayxuong{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,20px)
+    }
+    100%{
+        transform: translate(0,0)
+    }
+}
+.nutchay{
+    animation: chayxuong 1s infinite;
+}
+#about1{
+    background: rgba(247, 106, 130, 0.833);
+    background-size: cover;
+    height: 700px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+}
+#about1 .chubentrai{
+    width: 30%;
+}
+#about1 .chubentrai h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+#about1 .chubentrai p{
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(230, 230, 230);
+    margin: 22px 0 38px 0;
+}
+.khungtron{
+    border-radius: 50%;
+}
+#sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 300px;
+    height: 200px;
+    text-align: center;
+}
+#sec2 h2{
+    font-size: 40px;
+}
+#sec3{
+    text-align: center;
+    padding: 0 135px;
+    height: 600px;
+}
+#sec3 h1{
+    margin: 40px 0;
+    font-size: 50px;
+}
+#sec3 .aloalo{
+    width: 40%;
+    margin: 0 auto
+}
+.motdong{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background: #dfaeff;
+    border-radius: 6px;
+    width: 30%;
+    padding:30px ;
+}
+.box .p{
+    padding: 10px 0 10px 0;
+    color: aliceblue;
+}
+#content{
+    height: 400px;
+}
+/* #groupbts{
+    height: 600px;
+} */
+/* .clip video{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+} */
+#contact{
+    background: plum;
+    display: flex;
+    height: 400px;
+    padding: 30px 20px;
+}
+.formmau{
+    display:flex ;
+    justify-content: space-between;
+}
+h3, .formmau{
+    text-align: left;
+}
+form,.noidung{
+    width: 40%;
+}
+input ,textarea{
+    width: 100%;
+    padding: 18px 14px;
+    margin-bottom:48px;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    background: palevioletred;
+    padding: 30px 0;
+    margin-top: 30px 
+}
+.cuoi{
+    height: 30px;
+}
+
